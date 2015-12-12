@@ -66,10 +66,18 @@ body {
   margin: 0.3% 0 0 0;
 }
 
+.profilepic {
+  float: left;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  margin-right: 15px;
+  shape-outside: circle();
+}
 p {
   font-family: 'Playfair Display', serif;
   color: black;
-  text-align: center;
+  
   font-size: 14px;
 }
 
